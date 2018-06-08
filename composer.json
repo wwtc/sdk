@@ -1,0 +1,23 @@
+{
+    "name": "wwtc/sdk",
+    "type": "library",
+    "description": "A PHP wrapper for wwtc API",
+    "keywords": ["wwtccoin", "wtc", "api"],
+    "homepage": "https://github.com/wwtc/sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "WWTCAPPS API Team",
+            "email": "info@wwtcapps.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+	"guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "WwtcCoinSdk\\": "src/"
+        }
+    }
+}
