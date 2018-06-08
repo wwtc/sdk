@@ -1,13 +1,13 @@
-#WWTC sdk
+# WWTC sdk
 
-##getnewaddress
+## getnewaddress
 ```
 $wtc = new wwtc(); 
 $wtc->setsecret('secret','apikey'); 
 $address = $wtc->getnewaddress(); 
 
 ```
-##listtransactions
+## listtransactions
 
 ```
 $wtc = new wwtc(); 
@@ -16,7 +16,7 @@ $listtransactions = $wtc->listtransactions($limit,$offset);
 
 ```
 
-##sendcoin
+## sendcoin
 
 ```
 $wtc = new wwtc(); 
